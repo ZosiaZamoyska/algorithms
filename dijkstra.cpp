@@ -2,8 +2,8 @@
 //  main.cpp
 //  dijkstra
 //
-//  Created by Złosia  on 28.08.2017.
-//  Copyright © 2017 Złosia . All rights reserved.
+//  Created by Zosia  on 28.08.2017.
+//  Copyright © 2017 Zosia . All rights reserved.
 //
 
 #include <iostream>
