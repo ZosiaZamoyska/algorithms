@@ -2,8 +2,8 @@
 //  main.cpp
 //  bfs
 //
-//  Created by Złosia  on 28.08.2017.
-//  Copyright © 2017 Złosia . All rights reserved.
+//  Created by Zosia  on 28.08.2017.
+//  Copyright © 2017 Zosia . All rights reserved.
 //
 
 #include <iostream>
@@ -13,7 +13,7 @@ using namespace std;
 const int N=1000*1000+6;
 const int INF=1000*1000*1000+33;
 vector<int> as[N];
-int dis[N];
+int dis[N]; // distance
 int x, y; // vertices, edges;
 int from, to;
 void bfs(int a)
@@ -41,7 +41,6 @@ void bfs(int a)
 }
 int main()
 {
-    ios_base::sync_with_stdio(0);
     cin>>x>>y;
     for (int i=0; i<y; i++)
     {
