@@ -15,11 +15,23 @@ int income[N];
 int n, m, a, b;
 queue<int> Q;
 vector<int> ans;
+int odw[N];
+int dfs(int v, int k)
+{
+    odw[v] = 1;
+    int odp = k;
+    for (int i=0; i<tab[v].size(); i++)
+    {
+        if (odw[tab[v][i]] == 0)
+            odp = max(odp, dfs(tab[v][i], k+1));
+    }
+    return odp;
+}
 int main()
 {
-    cin>>n>>m;
+    cin>>n;
 
-    for (int i=0; i<m; i++)
+    for (int i=1; i<n; i++)
     {
         cin>>a>>b;
         tab[a].push_back(b);
@@ -28,14 +40,15 @@ int main()
         income[b]++;
     }
 
-    for (int i=1; i<=n; i++)
+    for (int i=0; i<n; i++)
         if (income[i] == 1)
             Q.push(i);
 
+    int layers = 0;
     while (!Q.empty())
     {
         ans.clear();
-
+        layers++;
         int curr_level = Q.size();
         for (int i=0; i<curr_level; i++)
         {
@@ -53,4 +66,9 @@ int main()
     }
     for (int i=0; i<ans.size(); i++)
     	cout<<ans[i]<<" ";
+
+    int height = layers; // or dfs(ans[0], 1);
+    if (ans.size() > 1)
+        height ++ ;
+    // cout<<layers<<" "<<dfs(ans[0], 1)<<endl;
 }
