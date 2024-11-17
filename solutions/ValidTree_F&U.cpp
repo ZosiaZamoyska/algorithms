@@ -43,11 +43,11 @@ int main()
     
     if (odp)
     {
-    	cout<<"PRAWDA\n";
+    	cout<<"TRUE\n";
     }
     else
     {
-    	cout<<"FAŁSZ\n";
+    	cout<<"FLASE\n";
     }
 	}
   else
@@ -56,6 +56,6 @@ int main()
     {
     	cin>>a>>b;
     }
-  	cout<<"FALSZ\n";
+  	cout<<"FALSE\n";
   }
 }
