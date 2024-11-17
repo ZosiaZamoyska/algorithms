@@ -39,11 +39,11 @@ int main()
         bool odp = dfs(0, -1);
         if (odp)
         {
-            cout<<"PRAWDA\n";
+            cout<<"TRUE\n";
         }
         else
         {
-            cout<<"FAŁSZ\n";
+            cout<<"FALSE\n";
         }
         }
     else
@@ -52,6 +52,6 @@ int main()
         {
             cin>>a>>b;
         }
-        cout<<"FALSZ\n";
+        cout<<"FALSE\n";
     }
 }
