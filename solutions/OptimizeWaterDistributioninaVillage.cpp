@@ -1,7 +1,5 @@
-/*
-    Min Cost to Connect All Points
-
-    MST, but you're given (xi, yi) points
+/* 
+    Optimize Water Distribution in a Village
 */
 #include <iostream>
 #include <vector>
@@ -12,10 +10,9 @@ const int N = 1000+21;
 vector<pair<int, int> > graph[N];
 vector<pair<int, pair<int, int> > > edges;
 vector<pair<pair<int, int>, int> > ans;
-int point[N][2];
 int vis[N];
 int edge[N];
-int n, x, y;
+int n, m, a, b, c;
 int parent[N];
 int waga[N];
 int find(int v)
@@ -91,9 +88,22 @@ void prim()
 int main()
 {
     cin>>n;
-    for (int i=0; i<n; i++)
+    for (int i=1; i<=n; i++)
     {
-        cin>>point[i][0]>>point[i][1];
+        // edge 0 -> i, a
+        cin>>a;
+        graph[0].push_back({i, a});
+        graph[i].push_back({0, a});
+        edges.push_back({a, {0, i}});
+    }
+
+    cin>>m;
+    for (int i=0; i<m; i++)
+    {
+        cin>>a>>b>>c;
+        graph[a].push_back({b, c});
+        graph[b].push_back({a, c});
+        edges.push_back({c, {a, b}});
     }
 
     for (int i=0; i<=n; i++)
@@ -102,29 +112,11 @@ int main()
         waga[i] = 1;
     }
 
-    for (int i=0; i<n; i++)
-    {
-        for (int j=0; j<n; j++)
-        {
-            int x0 = point[i][0];
-            int x1 = point[j][0];
-            int y0 = point[i][1];
-            int y1 = point[j][1];
-            if (i!=j)
-            {
-                int dist = abs(x0 - x1) + abs(y0 - y1);
-                // i -> j, dist
-                edges.push_back({dist, {i, j}});
-                graph[i].push_back({j, dist});
-                graph[j].push_back({i, dist});
-            }
-        }
-    }
-
     prim();
 
     // or
     // kruskal();
+
     int answer = 0;
     for (int i=0; i<ans.size(); i++)
     {
