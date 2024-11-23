@@ -36,6 +36,8 @@ void unite(int a, int b)
 }
 void kruskal()
 {
+    sort(edges.begin(), edges.end());
+    
     for (int i=0; i<edges.size(); i++)
     {
         int v = edges[i].first;
@@ -62,8 +64,6 @@ int main()
         parent[i] = i;
         waga[i] = 1;
     }
-
-    sort(edges.begin(), edges.end());
 
     kruskal();
 
