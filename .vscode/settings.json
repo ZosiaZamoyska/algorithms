@@ -12,6 +12,8 @@
         "utility": "cpp",
         "vector": "cpp",
         "xstring": "cpp",
-        "xtree": "cpp"
+        "xtree": "cpp",
+        "map": "cpp",
+        "algorithm": "cpp"
     }
 }
