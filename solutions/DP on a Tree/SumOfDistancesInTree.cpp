@@ -10,7 +10,7 @@ using namespace std;
 const int N = 100000+21;
 vector<int> graph[N];
 int dp[N][2];
-int size[N];
+int roz[N];
 int n, a, b;
 int answer = 0;
 void dfs1(int v, int prev)
@@ -21,27 +21,27 @@ void dfs1(int v, int prev)
         if (u != prev)
         {
             dfs1(u, v);
-            size[v] += size[u];
-            dp[v][0] += dp[u][0] + size[u];
+            roz[v] += roz[u];
+            dp[v][0] += dp[u][0] + roz[u];
         }
     }
-    size[v]++;
+    roz[v]++;
 
 }
 
 void dfs2(int v, int prev, int prev_val)
 {
-    dp[v][1] = dp[v][0] + prev_val + (n - size[v]);
+    dp[v][1] = dp[v][0] + prev_val + (n - roz[v]);
 
     for (int i=0; i<graph[v].size(); i++)
     {
         int u = graph[v][i];
         if (u != prev)
         {
-            dfs2(u, v, dp[v][1] - dp[u][0] - size[u]);
+            dfs2(u, v, dp[v][1] - dp[u][0] - roz[u]);
         }
     }
-    size[v]++;
+    roz[v]++;
 
 }
 int main()
