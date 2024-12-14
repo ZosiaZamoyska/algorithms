@@ -13,17 +13,19 @@ int n;
 int findPeak(int left, int right)
 {
     if (left == right)
-        return tab[left];
+        return left;
     int mid = (left+right)/2;
 
-    int peak1 = findPeak(left, mid);
-    int peak2 = findPeak(mid+1, right);
-    return max(peak1, peak2);
+    if (tab[mid] > tab[mid-1] && tab[mid] > tab[mid+1])
+        return mid;
+    else if (tab[mid] < tab[mid+1])
+        return findPeak(mid+1, right);
+    else return findPeak(left, mid-1);
 }
 int main()
 {
     cin>>n;
     for (int i=0; i<n; i++)
         cin>>tab[i];
-    cout<<findPeak(0, n-1);
+    cout<<findPeak(1, n-2);
 }
