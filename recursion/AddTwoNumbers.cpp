@@ -53,6 +53,6 @@ int main()
     }
 
     vector<int> answer = add(l1[0], l2[0], 0, 0);
-    for (int i=0; i<answer.size(); i++)
+    for (int i=answer.size()-1; i>=0; i--)
     	cout<<answer[i]<<" ";
 }
