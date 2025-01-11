@@ -29,7 +29,7 @@ def find_swap(A, B):
             return True
     return False
 
-A = list(map(int, input().split(' ')))
-B = list(map(int, input().split(' ')))
+A = list(map(int, input().split(' '))) # A = [1, 2, 5, 8]
+B = list(map(int, input().split(' '))) # B = [3, 6, 4, 7]
 
 print(find_swap(A, B))
