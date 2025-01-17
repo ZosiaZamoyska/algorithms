@@ -85,7 +85,7 @@ https://leetcode.com/problems/loud-and-rich/description/
 </details>
 
 <details>
-<summar>### Dijkstra</summary>
+<summary>### Dijkstra</summary>
 
 <details>
 <summary>Restricted paths</summary>
