@@ -6,6 +6,10 @@
   - [Advanced Algorithms](#advanced-algorithms)
     - [DFS](#dfs)
     - [Dijkstra](#dijkstra)
+    - [Find and Union](#find-and-union)
+    - [MST](#mst)
+    - [Topological Sort](#topological-sort)
+    - [DP on a Tree](#dp-on-a-tree)
 - [Implementation](#implementation)
   - [Sorting](#sorting)
   - [Graphs](#graphs)
@@ -132,6 +136,10 @@ Find longest path that has increasing value in each consecutive cell.
 https://leetcode.com/problems/loud-and-rich/description/
 </details>
 
+<details>
+<summary>Valid Tree</summary>
+Check if a tree is a valid tree.
+</details>
 
 ### Dijkstra
 
@@ -148,6 +156,78 @@ Return the number of restricted paths from node 1 to node n. Since that number m
 https://leetcode.com/problems/number-of-restricted-paths-from-first-to-last-node/description/
 </details>
 
+### Find and Union
+
+<details>
+<summary>Evaluate Division</summary>
+Given a series of proportions between variables, evaluate proportions between other pairs if possible
+https://leetcode.com/problems/evaluate-division/description/
+</details>
+
+
+<details>
+<summary>Valid Tree</summary>
+Check if a tree is a valid tree.
+</details>
+
+### MST
+
+<details>
+<summary>Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree
+</summary>
+Find critical edges (MST cannot exist without this edge), and pseudo-critical edges (MST can, but does not have to exist with this edge) for a given graph.
+</details>
+
+<details>
+<summary>Min Cost to Connect All Points</summary>
+Find a MST for a set of nodes represented as points on a 2D grid.
+https://leetcode.com/problems/min-cost-to-connect-all-points/description/
+</details>
+
+<details>
+<summary>Optimize Water Distribution in a Village</summary>
+Every house in a village needs water. House can get water from other hourse or by getting a well. Each operation has different cost. Compute cost of getting water to all the houses in a village.
+https://leetcode.com/problems/optimize-water-distribution-in-a-village/description/
+</details>
+
+### Topological Sort
+
+<details>
+<summary>Minimum Height Tree</summary>
+Take a Tree and find node to make the height of tree minimum.
+https://leetcode.com/problems/minimum-height-trees/description/
+</details>
+
+<details>
+<summary>Sequence Reconstruction</summary>
+Check if a sequence can be uniqely reconstructed from dependencies.
+https://leetcode.com/problems/sequence-reconstruction/description/
+</details>
+
+### DP on a Tree
+
+<details>
+<summary>Maximal Point Path</summary>
+For a given tree, crossing each edge costs points. Each node visit adds points. Given amount of points earned by node visit and amount of points lost by traveling through an edge, compute a path that results in heighest point gain. 
+</details>
+
+<details>
+<summary>Maximum Height of Tree</summary>
+Find maximum height of tree when any node could be a root.
+</details>
+
+<details>
+<summary>Maximum Set of Edges</summary>
+ Given a tree consisting of N Nodes and N-1 edges. 
+The task is to select the maximum set of edges such that each vertex is part of at most one of the selected edges (no two edges share a common end point) 
+i.e., if we select an edge connecting vertex u and v, then we cannot select any other edge connected by vertex u or vertex v.
+</details>
+
+<details>
+<summary>Sum of Distances In Tree</summary>
+Compute for each node a sum of distances to all other nodes.
+https://leetcode.com/problems/sum-of-distances-in-tree/description/
+</details>
 
 # Implementation
 

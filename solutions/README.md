@@ -7,7 +7,7 @@ Solutions to some of the competetive problems available online. Sometimes I do n
 1. Time Complexity [TBA]
 2. Element Occurance
 3. Prefix Sum [TBA]
-4. Sorting 
+4. Sorting [TBA]
 5. Queue and stack [TBA]
 6. Recursion
 
