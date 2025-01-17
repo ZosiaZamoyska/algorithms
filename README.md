@@ -118,6 +118,25 @@ This is a place where I keep my implementation of most popular algorithms.
 * Topological Sort (C++, with and without queue)
 * Unique Count (python)
 
+## Graphs
+
+* BFS (C++)
+* DFS (C++)
+* Dijkstra (C++)
+* Bellman-Ford (C++)
+* Floyd-Warshall (C++)
+* Tree Diameter (C++)
+* MST Kruskal (C++)
+* MST Prim (C++)
+
+# Other
+* 2D prefix sum (C++)
+* 2-pointer technique (C++)
+* Binary Search (C++, python)
+* Binary Tree (C++)
+* Binary Heap (C++)
+* Find and Union (C++)
+
 # Testing
 
 Testing is an example on testing your competition solutions - write a generate.cpp code to generate example inputs, write a solution in main.cpp and a brute-force solution in test.cpp. Then use test.sh to find any cases where they give different results.
