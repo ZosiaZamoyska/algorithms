@@ -1,8 +1,10 @@
 # Algorithms
 
+Algorithm implementations and solutions, mostly for introductory competetive programming. Includes implementations, problems and solutions for some topics, and introduction to testing your solutions.
+
 # Teaching solutions
 
-Keeping implementation of algorithmic problems on different problems by topic. Including:
+Keeping implementation of algorithmic problems on different problems by topic.
 
 ## Introduction to Algorithms
 
@@ -116,3 +118,6 @@ This is a place where I keep my implementation of most popular algorithms.
 * Topological Sort (C++, with and without queue)
 * Unique Count (python)
 
+# Testing
+
+Testing is an example on testing your competition solutions - write a generate.cpp code to generate example inputs, write a solution in main.cpp and a brute-force solution in test.cpp. Then use test.sh to find any cases where they give different results.
