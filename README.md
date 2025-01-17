@@ -1,9 +1,4 @@
-# Algorithms
-
-Algorithm implementations and solutions, mostly for introductory competetive programming. Includes implementations, problems and solutions for some topics, and introduction to testing your solutions.
 # Table of Contents
-
-- [Algorithms](#algorithms)
 - [Teaching solutions](#teaching-solutions)
   - [Introduction to Algorithms](#introduction-to-algorithms)
     - [Recursion](#recursion)
