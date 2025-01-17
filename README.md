@@ -58,7 +58,34 @@ Given two arrays A and B, print if it's possible to swap an element of A with an
 Check if for a list of numbers, each number occurs unique amount of time, that is: there is no other number that occurs the same amount of times. (OK: 1 2 2 3 3 3, NOT OK: 1 1 2 2)
 </details>
 
-### Recursion
+### Prefix Sum
+
+<details>
+<summary>Maximum Mushrooms Collection</summary>
+Given a list of n integers, where each value represents the number of mushrooms at that position along a path. A gatherer stands at position k and can make m moves (each move is left or right). Find the maximum mushrooms that can be collected.
+</details>
+
+<details>
+<summary>Tape</summart>
+Given a tape with a list of n integers (1 <= n <= 1,000,000), a boy tries to find the minimum possible arithmetic mean of any contiguous subarray.
+</details>
+
+<details>
+<summary>Passing Cars</summary>
+Count how many pairs of passing cars exist (cars traveling in opposite directions meeting at the same point), given a list of n cars in order and their travel direction (0 - east. 1 - west).
+</details>
+
+<details>
+<summary>Hamsters</summary>
+Count how many pairs of passing cars exist (cars traveling in opposite directions meeting at the same point), given a list of n cars in order and their travel direction (0 - east. 1 - west).
+</details>
+
+<details>
+<summary>Count Vowels</summary>
+Count vowels in a word on different query ranges.
+</details>
+
+### Recursion 
 
 <details>
 <summary>Add Two Numbers</summary>
