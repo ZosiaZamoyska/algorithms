@@ -19,7 +19,7 @@
 
 # Teaching solutions
 
-Keeping implementation of algorithmic problems on different problems by topic.
+Keeping solutions of different problems by topic.
 
 ## Introduction to Algorithms
 
