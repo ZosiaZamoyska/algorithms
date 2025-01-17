@@ -66,7 +66,7 @@ Given a list of n integers, where each value represents the number of mushrooms 
 </details>
 
 <details>
-<summary>Tape</summart>
+<summary>Tape</summary>
 Given a tape with a list of n integers (1 <= n <= 1,000,000), a boy tries to find the minimum possible arithmetic mean of any contiguous subarray.
 </details>
 
