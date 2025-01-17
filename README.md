@@ -21,7 +21,7 @@
 - [Implementation](#implementation)
   - [Sorting](#sorting)
   - [Graphs](#graphs)
-- [Other](#other)
+  - [Other](#other)
 - [Testing](#testing)
 
 # Teaching solutions
@@ -151,7 +151,7 @@ This is a place where I keep my implementation of most popular algorithms.
 * MST Kruskal (C++)
 * MST Prim (C++)
 
-# Other
+## Other
 * 2D prefix sum (C++)
 * 2-pointer technique (C++)
 * Binary Search (C++, python)
