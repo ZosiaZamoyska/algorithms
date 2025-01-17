@@ -1,10 +1,15 @@
-//
-//  main.cpp
-//  przedzialy
-//
-//  Created by Zosia  on 10.12.2017.
-//  Copyright © 2017 Zosia . All rights reserved.
-//
+/*
+    For given n compartments, their start and end, print out how many (at most) non-overlapping compartments can we chose.
+
+    5
+    5 6
+    1 4
+    10 10
+    6 9
+    8 10
+
+    Answer is 4
+*/
 
 #include <iostream>
 #include <vector>
