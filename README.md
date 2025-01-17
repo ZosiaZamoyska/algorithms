@@ -1,6 +1,7 @@
 # Table of Contents
 - [Teaching solutions](#teaching-solutions)
   - [Introduction to Algorithms](#introduction-to-algorithms)
+    - [Element Occurance](#element-occurance)
     - [Recursion](#recursion)
   - [Advanced Algorithms](#advanced-algorithms)
     - [DFS](#dfs)
@@ -17,6 +18,41 @@ Keeping implementation of algorithmic problems on different problems by topic.
 
 ## Introduction to Algorithms
 
+### Element Occurance
+<details>
+<summary>Buttons</summary>
+Print out press count of each button from 1 to n (count how many times each button was pressed), including that n+1th button resets all values to maximum of all from 1 to n.
+
+Example Input:
+5 7 
+3 4 4 6 1 4 4 
+
+Example Output:
+3 2 2 4 2
+</details>
+
+<details>
+<summary>Frog</summary>
+A frog can cross a river, if all leaves on position from 1 to n exist. Knowing the order of leaf falling, print out when will crossing be possible.
+Example Input:
+5 8
+1 3 1 4 2 3 5 4
+
+Example Output:
+7
+</details>
+<details>
+<summary>Is Permutation</summary>
+Check if given sequence of n integers is a permutation of a set from 1 to n. Print out yes or no.
+</details>
+<details>
+<summary>Swap</summary>
+Given two arrays A and B, print if it's possible to swap an element of A with an element of B to have two lists of equal sum.
+</details>
+<details>
+<summary>Unique Count</summary>
+Check if for a list of numbers, each number occurs unique amount of time, that is: there is no other number that occurs the same amount of times. (OK: 1 2 2 3 3 3, NOT OK: 1 1 2 2)
+</details>
 ### Recursion
 
 <details>
