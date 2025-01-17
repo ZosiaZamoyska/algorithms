@@ -84,8 +84,8 @@ Find longest path that has increasing value in each consecutive cell.
 https://leetcode.com/problems/loud-and-rich/description/
 </details>
 
-<details>
-<summary>### Dijkstra</summary>
+
+### Dijkstra
 
 <details>
 <summary>Restricted paths</summary>
@@ -99,7 +99,7 @@ Return the number of restricted paths from node 1 to node n. Since that number m
 
 https://leetcode.com/problems/number-of-restricted-paths-from-first-to-last-node/description/
 </details>
-</details>
+
 
 # Implementation
 
