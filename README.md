@@ -2,6 +2,7 @@
 - [Teaching solutions](#teaching-solutions)
   - [Introduction to Algorithms](#introduction-to-algorithms)
     - [Element Occurance](#element-occurance)
+    - [Prefix Sum](#prefix-sum)
     - [Recursion](#recursion)
   - [Advanced Algorithms](#advanced-algorithms)
     - [DFS](#dfs)
