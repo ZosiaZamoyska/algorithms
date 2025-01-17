@@ -256,6 +256,7 @@ This is a place where I keep my implementation of most popular algorithms.
 * MST Prim (C++)
 
 ## Other
+* prefix sum (python)
 * 2D prefix sum (C++)
 * 2-pointer technique (C++)
 * Binary Search (C++, python)
