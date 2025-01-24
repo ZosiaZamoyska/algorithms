@@ -285,7 +285,7 @@ This is a place where I keep my implementation of most popular algorithms.
 
 ## Other
 * prefix sum (python)
-* 2D prefix sum (C++)
+* 2D prefix sum (C++, python)
 * 2-pointer technique (C++)
 * Binary Search (C++, python)
 * Binary Tree (C++)
