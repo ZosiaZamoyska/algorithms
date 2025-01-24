@@ -3,6 +3,7 @@
   - [Introduction to Algorithms](#introduction-to-algorithms)
     - [Element Occurance](#element-occurance)
     - [Prefix Sum](#prefix-sum)
+    - [Sorting](#sorting-1)
     - [Recursion](#recursion)
   - [Advanced Algorithms](#advanced-algorithms)
     - [DFS](#dfs)
@@ -86,6 +87,18 @@ Count how many pairs of passing cars exist (cars traveling in opposite direction
 Count vowels in a word on different query ranges.
 </details>
 
+### Sorting
+
+<details>
+<summary>Multiplication</summary>
+Find values x, y, z from a list, such that their product is as large as possible. Do it m times. 
+</details>
+
+<details>
+<summary>Nails</summary>
+You are given a board with nails sticking out at different heights. Each nail has a specific sticking-out length. 
+Additionally, you are allowed to "nail" (reduce the height of) up to k nails, lowering them to any height less than or equal to their current height. The task is to determine the maximum number of nails that can stick out at the same height after using up to k nailing opportunities.</details>
+
 ### Recursion 
 
 <details>
@@ -124,7 +137,6 @@ Fix Ineffective Fibonacci. Still, use recursion but make it smarter.
 <summary>Find Peak</summary>
 Find any array peak (that is, for an i-th value in a list, both values on right and left are smaller).
 </details>
-
 
 <details>
 <summary>Power Slow</summary>
