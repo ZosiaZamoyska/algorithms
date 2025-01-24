@@ -1,5 +1,3 @@
-from os.path import join 
-
 def countsort(tab):
     largest = max(tab)
     count = [0] * (largest+1)
