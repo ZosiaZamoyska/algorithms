@@ -90,6 +90,12 @@ Count vowels in a word on different query ranges.
 ### Sorting
 
 <details>
+<summary>Unique count</summary>
+We are given a sequence of n >= 0 integers a0, a1, a2, ..., a(n-1), where -2 * 10^9 <= ai <= 2 * 10^9. 
+The task is to calculate how many distinct numbers appear in this sequence.
+</details>
+
+<details>
 <summary>Multiplication</summary>
 Find values x, y, z from a list, such that their product is as large as possible. Do it m times. 
 </details>
