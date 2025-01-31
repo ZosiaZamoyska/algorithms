@@ -105,6 +105,14 @@ Find values x, y, z from a list, such that their product is as large as possible
 You are given a board with nails sticking out at different heights. Each nail has a specific sticking-out length. 
 Additionally, you are allowed to "nail" (reduce the height of) up to k nails, lowering them to any height less than or equal to their current height. The task is to determine the maximum number of nails that can stick out at the same height after using up to k nailing opportunities.</details>
 
+<details>
+<summary>Minimum Distance</summary>
+In Bajtocja, railway tracks run in a straight line from east to west. The houses of the residents are located to the north of the railway track.
+If two people from different houses want to meet, they meet at the midpoint of the distance between their houses. However, this distance is not calculated in a traditional way as a straight-line segment between the houses.
+Instead, the distance is determined as follows: a person first walks south to the railway tracks, then along the tracks to the line where the target house is located, and finally walks straight north to that house.
+From all possible pairs of houses, we want to find the pair for which this distance is minimal.
+</details>
+
 ### Recursion 
 
 <details>
