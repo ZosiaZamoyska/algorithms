@@ -116,9 +116,14 @@ From all possible pairs of houses, we want to find the pair for which this dista
 
 ### Stack and Queue
 
-<detials>
+<details>
 <summary>Initial Size of a Queue</summary>
 Determine the minimum number of people who had to be in the queue initially, knowing the order of peopele joining and leaving a queue. We do not know how many people were there initially, but there should not be a moment where a person leaves an empty queue.
+</details>
+
+<details>
+<summary>Brackets</summary>
+Determine whether each input bracket sequence is correct.
 </details>
 
 ### Recursion 
