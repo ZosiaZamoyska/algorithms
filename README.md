@@ -4,6 +4,7 @@
     - [Element Occurance](#element-occurance)
     - [Prefix Sum](#prefix-sum)
     - [Sorting](#sorting)
+    - [Stack and Queue](#stack-and-queue)
     - [Recursion](#recursion)
   - [Advanced Algorithms](#advanced-algorithms)
     - [DFS](#dfs)
@@ -113,6 +114,13 @@ Instead, the distance is determined as follows: a person first walks south to th
 From all possible pairs of houses, we want to find the pair for which this distance is minimal.
 </details>
 
+### Stack and Queue
+
+<detials>
+<summary>Initial Size of a Queue</summary>
+Determine the minimum number of people who had to be in the queue initially, knowing the order of peopele joining and leaving a queue. We do not know how many people were there initially, but there should not be a moment where a person leaves an empty queue.
+</details>
+
 ### Recursion 
 
 <details>
@@ -161,6 +169,7 @@ For values x and n, compute x to the power of n. Do not worry about optimization
 <summary>Power Fast</summary>
 For values x and n, compute x to the power of n. Try to optimize. 
 </details>
+
 
 ## Advanced Algorithms
 
