@@ -126,6 +126,11 @@ Determine the minimum number of people who had to be in the queue initially, kno
 Determine whether each input bracket sequence is correct.
 </details>
 
+<details>
+<summary>Fish</summary>
+Fishes of different sizes swim upstream and downstream. If they meet, bigger fish eats the smaller one. Calculate number of survivors. 
+</details>
+
 ### Recursion 
 
 <details>
