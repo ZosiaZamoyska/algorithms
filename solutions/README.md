@@ -6,9 +6,9 @@ Solutions to some of the competetive problems available online. Sometimes I do n
 ## Introduction
 1. Time Complexity [TBA]
 2. Element Occurance
-3. Prefix Sum [TBA]
-4. Sorting [TBA]
-5. Queue and stack [TBA]
+3. Prefix Sum
+4. Sorting
+5. Queue and stack
 6. Recursion
 
 ## Advanced
