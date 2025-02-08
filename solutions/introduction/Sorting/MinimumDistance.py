@@ -22,7 +22,6 @@ def min_meeting_distance(houses):
     houses.sort()
     
     min_distance = float('inf')
-    min_distance = float('inf')
     prev_x, prev_y = houses[0]
 
     for i in range(1, len(houses)):

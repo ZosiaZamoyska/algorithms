@@ -131,6 +131,11 @@ Determine whether each input bracket sequence is correct.
 Fishes of different sizes swim upstream and downstream. If they meet, bigger fish eats the smaller one. Calculate number of survivors. 
 </details>
 
+<details>
+<summary>Queue Bribe</summary>
+A boy wants to be the first in the queue. Each person has a price. Calculate the cheapest way the boy can be first in the queue.
+</details>
+
 ### Recursion 
 
 <details>
