@@ -5,6 +5,7 @@
     - [Prefix Sum](#prefix-sum)
     - [Sorting](#sorting)
     - [Stack and Queue](#stack-and-queue)
+    - [Leader Search](#leader-search)
     - [Recursion](#recursion)
   - [Advanced Algorithms](#advanced-algorithms)
     - [DFS](#dfs)
@@ -134,6 +135,16 @@ Fishes of different sizes swim upstream and downstream. If they meet, bigger fis
 <details>
 <summary>Queue Bribe</summary>
 A boy wants to be the first in the queue. Each person has a price. Calculate the cheapest way the boy can be first in the queue.
+</details>
+
+### Leader Search
+
+<details>
+<summary>Tape</summary>
+A boy found a long tape at home and, without hesitation, wrote a sequence of integers on it. He wants to cut the tape in some places, but there is a strict condition:
+A cut can only be made if both parts of the tape have the same leader.
+A leader of a sequence is an element that appears more than half the times in that sequence.
+Your task is to determine the number of valid cut positions where both the left and right parts of the tape have the same leader.
 </details>
 
 ### Recursion 

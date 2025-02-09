@@ -9,7 +9,8 @@ Solutions to some of the competetive problems available online. Sometimes I do n
 3. Prefix Sum
 4. Sorting
 5. Queue and stack
-6. Recursion
+6. Leader Search
+7. Recursion
 
 ## Advanced
 1. Binary Search [TBA]
