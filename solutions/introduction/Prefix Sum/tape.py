@@ -15,7 +15,7 @@ def min_average_subarray(a):
     return round(min(a), 2)
 
 
-a = list(map(int, input().split(' ')))
+a = list(map(int, input().split(' ')))  
 # a = [3, 4, 2, 2, 2, 5, 8]
 
 print(min_average_subarray(a))
