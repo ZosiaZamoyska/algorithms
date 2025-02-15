@@ -147,6 +147,12 @@ A leader of a sequence is an element that appears more than half the times in th
 Your task is to determine the number of valid cut positions where both the left and right parts of the tape have the same leader.
 </details>
 
+<details>
+<summary>Flag</summary>
+A flag consists of `n` horizontal stripes, each with a different color. The king wants to change the flag so that it consists of `n` stripes in only two alternating colors (A and B). 
+The goal is to minimize the number of stripes that need to be repainted. The choice of colors does not matter, but the colors must alternate.
+</details>
+
 ### Recursion 
 
 <details>
