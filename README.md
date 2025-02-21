@@ -171,6 +171,11 @@ Find a segment from a weight loss diary where the weight loss is biggest and pri
 A boy is traveling between cities on a line. He wants to earn as much as possible, and he knows how much exactly he will earn or lose on each road between cities. He also has a train ticket, that can take him from any station to any other station (even back, so he can earn twice). Calculate maximum profit he can earn.
 </details>
 
+<details>
+<summary>Homework</summary>
+Given a sequence of numbers, circle three values on positions a, b, and c such that sum between positions a and b and b and c (without circled values) is largest.
+</details>
+
 ### Recursion 
 
 <details>
