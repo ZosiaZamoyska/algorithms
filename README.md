@@ -166,6 +166,11 @@ A prefix leader is an element that is a leader for more than half of prefixes. F
 Find a segment from a weight loss diary where the weight loss is biggest and print out the difference.
 </details>
 
+<details>
+<summary>Best Trip</summary>
+A boy is traveling between cities on a line. He wants to earn as much as possible, and he knows how much exactly he will earn or lose on each road between cities. He also has a train ticket, that can take him from any station to any other station (even back, so he can earn twice). Calculate maximum profit he can earn.
+</details>
+
 ### Recursion 
 
 <details>
