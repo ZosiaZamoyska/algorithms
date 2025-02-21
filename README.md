@@ -153,6 +153,12 @@ A flag consists of `n` horizontal stripes, each with a different color. The king
 The goal is to minimize the number of stripes that need to be repainted. The choice of colors does not matter, but the colors must alternate.
 </details>
 
+
+<details>
+<summary>Prefix Leader</summary>
+A prefix leader is an element that is a leader for more than half of prefixes. Find, if exists, the prefix leader.
+</details>
+
 ### Recursion 
 
 <details>
