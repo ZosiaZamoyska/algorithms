@@ -179,6 +179,13 @@ Given a sequence of numbers, circle three values on positions a, b, and c such t
 
 ### Prime and Composite Numbers
 
+<details>
+<summary>Coins</summary>
+There are n coins, numbered from 1 to n, on the table and n people.
+Each person from 1 to n, flips certain coins.
+To be specific, i-th person flips coins numbered i, 2*i, 3*i, ..., etc.
+How many coins will be flipped at the end?
+</details>
 
 ### Recursion 
 
