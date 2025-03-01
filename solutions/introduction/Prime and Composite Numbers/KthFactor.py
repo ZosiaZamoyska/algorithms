@@ -7,20 +7,13 @@
 '''
 
 def kth_factor_n(n, k):
-    count = 0
-    for i in range(1, int(n**0.5)+1):
-            print(i)
-            if n % i == 0:
-                count += 1
-            if count == k:
-                return i
-    for i in range(int(n**0.5)-1, 0, -1):
-        print(i)
+    factors = []
+    for i in range(1, n):
         if n % i == 0:
-            count += 1
-        if count == k:
-            return n/i
-    return -1
+            factors.append(i)
+    if len(factors) < k:
+        return -1
+    return factors[k-1]
 
 def kth_factor(n, k):
     factors = []
