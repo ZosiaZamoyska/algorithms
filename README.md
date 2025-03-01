@@ -7,6 +7,7 @@
     - [Stack and Queue](#stack-and-queue)
     - [Leader Search](#leader-search)
     - [Maximum Subarray Sum](#maximum-subarray-sum)
+    - [Prime and Composite Numbers](#prime-and-composite-numbers)
     - [Recursion](#recursion)
   - [Advanced Algorithms](#advanced-algorithms)
     - [DFS](#dfs)
@@ -175,6 +176,9 @@ A boy is traveling between cities on a line. He wants to earn as much as possibl
 <summary>Homework</summary>
 Given a sequence of numbers, circle three values on positions a, b, and c such that sum between positions a and b and b and c (without circled values) is largest.
 </details>
+
+### Prime and Composite Numbers
+
 
 ### Recursion 
 
