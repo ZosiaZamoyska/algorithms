@@ -187,6 +187,13 @@ To be specific, i-th person flips coins numbered i, 2*i, 3*i, ..., etc.
 How many coins will be flipped at the end?
 </details>
 
+<details>
+<summary> Kth Factor</summary>
+You are given two positive integers n and k. 
+A factor of an integer n is defined as an integer i where n % i == 0.
+Consider a list of all factors of n sorted in ascending order, return the kth factor in this list or return -1 if n has less than k factors.
+</details>
+
 ### Recursion 
 
 <details>
