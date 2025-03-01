@@ -197,7 +197,7 @@ Consider a list of all factors of n sorted in ascending order, return the kth fa
 <details>
 <summary>Perimeter</summary>
 What is a minimum perimeter of a rectangle with a area of exactly p?
-<details>
+</details>
 
 <details>
 <summary>Peaks</summary>
