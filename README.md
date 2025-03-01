@@ -199,6 +199,19 @@ Consider a list of all factors of n sorted in ascending order, return the kth fa
 What is a minimum perimeter of a rectangle with a area of exactly p?
 <details>
 
+<details>
+<summary>Peaks</summary>
+A boy is packing for an expedition to the Mountains. 
+He already has a map of the route he will follow. 
+These are n consecutive places located at certain heights. 
+A peak is a place for which two neighboring places are lower. 
+We assume that the first and last place are not peaks. 
+The boy would like to divide the entire route into coherent sections with the same number of places. 
+In each section, he would like to place exactly one flag. 
+He decided that he can mix up the flags only on the peaks. 
+Help the boy and calculate the maximum number of flags he can place. 
+<details>
+
 ### Recursion 
 
 <details>
