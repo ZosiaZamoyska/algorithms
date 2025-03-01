@@ -210,7 +210,7 @@ The boy would like to divide the entire route into coherent sections with the sa
 In each section, he would like to place exactly one flag. 
 He decided that he can mix up the flags only on the peaks. 
 Help the boy and calculate the maximum number of flags he can place. 
-<details>
+</details>
 
 <details>
 <summary>Flags</summary>
