@@ -212,6 +212,20 @@ He decided that he can mix up the flags only on the peaks.
 Help the boy and calculate the maximum number of flags he can place. 
 <details>
 
+<details>
+<summary>Flags</summary>
+A boy is packing for an expedition to the Mountains. 
+He already has a map of the route he will follow. 
+These are n consecutive places located at certain heights. 
+A peak is a place for which two neighboring places are lower. 
+We assume that the first and last place are not peaks. 
+The boy wants to place flags on the peaks. 
+He decides that if he takes k flags with him, then the distance between any two flags must be at least k. 
+Places x < y are exactly y-x apart. 
+Help the boy and calculate the maximum number of flags he can place. 
+We know that the boy has an unlimited number of flags that he can take on his expedition.
+</details>
+
 ### Recursion 
 
 <details>
