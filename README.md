@@ -434,6 +434,7 @@ This is a place where I keep my implementation of most popular algorithms.
 * Maximum Subarray Sum (python)
 * Maximum 2D Subarray Sum (python)
 * Sieve of Eratosthenes (python)
+* Factorization with sieve (python)
 
 # Testing
 
