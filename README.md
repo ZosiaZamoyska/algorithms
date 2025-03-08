@@ -247,6 +247,12 @@ n = p1^a1 * p2^a2 * ... * pk^ak
 To prove that you can quickly find prime numbers, calculate the sum of prime numbers in the interval [a, b], for various given a and b.
 </details>
 
+<details>
+<summary>Number Array</summary>
+We are given an array containing n integers a0, a1, ..., an-1. 
+For each number ai, we want to count how many elements from the array are not divisors of it.
+</details>
+
 ### Recursion 
 
 <details>
