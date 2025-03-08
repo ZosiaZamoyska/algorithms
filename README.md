@@ -234,6 +234,14 @@ A half-prime number is a number that is the product of exactly two prime numbers
 We receive queries asking how many half-prime numbers exist in the range [a, b].
 </details>
 
+<details>
+<summary>Factorization</summary>
+The first line of input contains a natural number T (T <= 1000) – the number of numbers to factorize.
+Each of the next T lines contains a number n (2 <= n <= 10^9).
+For each number, output its prime factorization in the form:
+n = p1^a1 * p2^a2 * ... * pk^ak
+</details>
+
 ### Recursion 
 
 <details>
