@@ -16,6 +16,8 @@
 # 30 = 2*3*5
 # 36 = 2^2*3^2
 # 404 = 2^2*101
+#
+# https://szkopul.edu.pl/problemset/problem/7F7_ZR1sUvvTGMkqJIbFKx4K/site/?key=statement
 
 
 def sieve(limit):

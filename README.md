@@ -242,6 +242,11 @@ For each number, output its prime factorization in the form:
 n = p1^a1 * p2^a2 * ... * pk^ak
 </details>
 
+<details>
+<summary>Prime Prefix</summary>
+To prove that you can quickly find prime numbers, calculate the sum of prime numbers in the interval [a, b], for various given a and b.
+</details>
+
 ### Recursion 
 
 <details>
