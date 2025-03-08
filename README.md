@@ -226,6 +226,14 @@ Help the boy and calculate the maximum number of flags he can place.
 We know that the boy has an unlimited number of flags that he can take on his expedition.
 </details>
 
+### Sieve of Erastosthenes
+
+<details>
+<summary>Half-primes</summary>
+A half-prime number is a number that is the product of exactly two prime numbers.
+We receive queries asking how many half-prime numbers exist in the range [a, b].
+</details>
+
 ### Recursion 
 
 <details>
@@ -424,6 +432,7 @@ This is a place where I keep my implementation of most popular algorithms.
 * MST Prim (C++)
 
 ## Other
+
 * prefix sum (python)
 * 2D prefix sum (C++, python)
 * 2-pointer technique (C++)
