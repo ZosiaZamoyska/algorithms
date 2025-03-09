@@ -13,19 +13,7 @@ def sieve_factorization(n):
                 if F[k] == 0:
                     F[k] = i
     
-    for i in range(2, n + 1):
-        if F[i] == 0:
-            F[i] = i
-    
     return F
-
-def get_factors(x, F):
-    factors = []
-    while F[x] > 0 and x > 1:
-        factors.append(F[x])
-        x //= F[x]
-    factors.append(x)
-    return factors
 
 def compute_half_primes(n, F):
     half_prime = [0] * (n + 1)
