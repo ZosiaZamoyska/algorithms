@@ -276,6 +276,15 @@ A boy collects tangerines into two baskets with capacity up to 'n'. His reward i
 Goal: Find x, y ≤ n to maximize the reward.
 </details>
 
+<details>
+<summary>Monkey</summary>
+A cheerful monkey found a new game. She arranged n cages with animals (each cage contains exactly one animal) in a circle 
+and jumps over them. The monkey always jumps over d consecutive cages and always opens the one she lands on. 
+She stops when she jumps on a cage that has already been opened. 
+Your task is to determine how many animals will be released. 
+</details>
+
+
 ### Recursion 
 
 <details>
