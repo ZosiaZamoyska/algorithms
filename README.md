@@ -270,6 +270,12 @@ Three boys each have coins of denominations a, b, and c respectively (each boy h
 They want to find the smallest possible amount of money that each of them can pay using only their coins.
 </details>
 
+<details>
+<summary>Tangerines</summary>
+A boy collects tangerines into two baskets with capacity up to 'n'. His reward is GCD(x, y) + LCM(x, y).
+Goal: Find x, y ≤ n to maximize the reward.
+</details>
+
 ### Recursion 
 
 <details>
