@@ -262,6 +262,14 @@ A proper divisor of a number is a natural divisor other than the number itself.
 We would like to know **how many second-kind perfect numbers are contained in certain ranges**.
 </details>
 
+### Greatest Common Divisor
+
+<details>
+<summary>Boys</summary>
+Three boys each have coins of denominations a, b, and c respectively (each boy has only one type of coin).
+They want to find the smallest possible amount of money that each of them can pay using only their coins.
+</details>
+
 ### Recursion 
 
 <details>
