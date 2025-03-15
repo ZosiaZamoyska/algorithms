@@ -253,6 +253,15 @@ We are given an array containing n integers a0, a1, ..., an-1.
 For each number ai, we want to count how many elements from the array are not divisors of it.
 </details>
 
+<details>
+<summary> </summary>
+Recall that a **perfect number** is a natural number greater than 1 that is equal to the sum of all its proper divisors. 
+A **second-kind perfect number** is a natural number greater than 1 that is equal to the product of all its proper divisors. 
+For example, proper divisors of 27 are 1, 3, and 9, and since 1 * 3 * 9 = 27, 27 is a second-kind perfect number.
+A proper divisor of a number is a natural divisor other than the number itself.
+We would like to know **how many second-kind perfect numbers are contained in certain ranges**.
+</details>
+
 ### Recursion 
 
 <details>
