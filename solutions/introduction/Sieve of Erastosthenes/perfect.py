@@ -32,7 +32,7 @@ pref = [0] * MAX
 
 def sieve():
     for i in range(2, int(MAX ** 0.5) + 1):
-        if F[i] == 0:  # If i is prime
+        if F[i] == 0:
             for j in range(i * i, MAX, i):
                 if F[j] == 0:
                     F[j] = i
