@@ -284,6 +284,11 @@ She stops when she jumps on a cage that has already been opened.
 Your task is to determine how many animals will be released. 
 </details>
 
+<details>
+<summary>Prime Set</summary>
+We are given two integers a and b. We want to check whether the set of prime divisors of a is a subset of the set of prime divisors of b. The set of prime divisors of a number includes every prime number that divides it.
+</details>
+
 
 ### Recursion 
 
