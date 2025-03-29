@@ -303,6 +303,10 @@ Given a list of numbers x0, x1, ..., xm, check whether each number can be expres
 A rabbit is jumping on a straight path using Fibonacci number lengths as jumps. Some positions contain stones where the rabbit cannot land. The rabbit wants to reach position 'n' from position 0 with the minimum number of jumps. The rabbit always jumps forward and cannot overshoot 'n'.
 </details>
 
+<details>
+<summary>Ladder</summary>
+A boy climbs a ladder. He can take either one step or two steps at a time. We want to determine the number of different ways he can reach the top of the ladder. Since the number of ways can be very large, we only need to return the result modulo 2^p.
+</details>
 
 ### Recursion 
 

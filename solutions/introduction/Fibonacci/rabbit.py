@@ -1,4 +1,4 @@
-# Problem Statement:
+#
 # A rabbit is jumping on a straight path using Fibonacci number lengths as jumps.
 # Some positions contain stones where the rabbit cannot land.
 # The rabbit wants to reach position 'n' from position 0 with the minimum number of jumps.
@@ -36,7 +36,7 @@ def min_fib_jumps(n, obstacles):
                 if k - f >= 0:
                     jumps[k] = min(jumps[k], jumps[k - f] + 1)
     
-    return jumps[n] if jumps[n] != inf else -1
+    return jumps[n] if jumps[n] <= n else -1
 
 
 n = int(input())
