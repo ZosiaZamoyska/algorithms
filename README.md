@@ -8,6 +8,8 @@
     - [Leader Search](#leader-search)
     - [Maximum Subarray Sum](#maximum-subarray-sum)
     - [Prime and Composite Numbers](#prime-and-composite-numbers)
+    - [Greatest Common Divisor](#greatest-common-divisor)
+    - [Fibonacci](#fibonacci)
     - [Recursion](#recursion)
   - [Advanced Algorithms](#advanced-algorithms)
     - [DFS](#dfs)
@@ -287,6 +289,18 @@ Your task is to determine how many animals will be released.
 <details>
 <summary>Prime Set</summary>
 We are given two integers a and b. We want to check whether the set of prime divisors of a is a subset of the set of prime divisors of b. The set of prime divisors of a number includes every prime number that divides it.
+</details>
+
+### Fibonacci
+
+<details>
+<summary>Prime Set</summary>
+Given a list of numbers x0, x1, ..., xm, check whether each number can be expressed as the sum of two Fibonacci numbers.
+</details>
+
+<details>
+<summary>Rabbit</summary>
+A rabbit is jumping on a straight path using Fibonacci number lengths as jumps. Some positions contain stones where the rabbit cannot land. The rabbit wants to reach position 'n' from position 0 with the minimum number of jumps. The rabbit always jumps forward and cannot overshoot 'n'.
 </details>
 
 
