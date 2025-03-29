@@ -308,6 +308,15 @@ A rabbit is jumping on a straight path using Fibonacci number lengths as jumps. 
 A boy climbs a ladder. He can take either one step or two steps at a time. We want to determine the number of different ways he can reach the top of the ladder. Since the number of ways can be very large, we only need to return the result modulo 2^p.
 </details>
 
+<details>
+<summary>Meeting</summary>
+At the second congress of the Bajtocki Informatics Society, the participants are seated around a circular table.
+One participant posed the question: how many ways can they greet each other without standing up?
+A greeting consists of each participant shaking hands with at most one of their neighbors.
+The number of ways can be large, so they are only interested in the last digit of the result.
+</details>
+
+
 ### Recursion 
 
 <details>
