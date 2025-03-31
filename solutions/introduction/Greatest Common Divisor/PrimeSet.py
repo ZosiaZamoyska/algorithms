@@ -31,7 +31,7 @@ def gcd(a, b):
         return b
     return gcd(b, a % b)
 
-def is_subset_of_prime_factors(a, b):
+def czy_podzbior(a, b):
     gcd_ab = gcd(a, b)
 
     while a > 1:
@@ -45,4 +45,4 @@ def is_subset_of_prime_factors(a, b):
 t = int(input())
 for _ in range(t):
     a, b = map(int, input().split())
-    print(is_subset_of_prime_factors(a, b))
+    print(czy_podzbior(a, b))
