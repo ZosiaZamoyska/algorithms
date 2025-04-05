@@ -366,6 +366,10 @@ For values x and n, compute x to the power of n. Do not worry about optimization
 For values x and n, compute x to the power of n. Try to optimize. 
 </details>
 
+<details>
+<summary>Hanoi</summary>
+Classic Tower of Hanoi problem.
+</details>
 
 ## Advanced Algorithms
 
