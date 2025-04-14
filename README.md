@@ -371,6 +371,30 @@ For values x and n, compute x to the power of n. Try to optimize.
 Classic Tower of Hanoi problem.
 </details>
 
+### Binary Search
+
+<details>
+<summary>Distance</summary>
+For a set of queries (a, b) on a sorted array (arr), find largest distance between value a and b in the array.
+</details>
+
+<details>
+<summary>Split Array</summary>
+Find smallest amount, such that a list can be divided into k segments where each segment's sum does not exceed this amount.
+</details>
+
+<details>
+<summary>Nails</summary>
+Find minimum number of nails that need to be nailed in order for all plates to be nailed. You are given plate start and end point, and nail locations in order of nailing.
+</details>
+
+<details>
+<summary>Radius</summary>
+</details>
+
+
+
+
 ## Advanced Algorithms
 
 ### DFS
