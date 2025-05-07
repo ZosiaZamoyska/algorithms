@@ -406,6 +406,16 @@ For example, sticks [5, 6, 5, 6] can all become of length 3 in total of 4 operat
 </details>
 
 <details>
+<summary>Boxes</summary>
+You are given a sequence of n distinct integers from 1 to n, stored inside n boxes. 
+There is one additional empty box labeled n+1.
+At any time, you are allowed to swap the content of the empty box with any other box.
+Your goal is to sort the boxes so that box i contains the integer i for all 1 ≤ i ≤ n. 
+Determine some, true number of swap operations needed using the empty box, and print the sequence of positions you used to swap with the empty box (including the final swap that places n+1 back in position n+1).
+If the number of operations exceeds 1500, do not output anything.
+</details>
+
+<details>
 <summary>Make Palindrome</summary>
 You are given a t, number of test cases.
 For each testcase, you are given a string s.
