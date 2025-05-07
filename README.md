@@ -413,6 +413,17 @@ Find minimum number of 'x' that need to be inserted into s so it becomes a palin
 Print -1 if not possible.
 </details>
 
+### Compression
+
+<details>
+<summary>Papers</summary>
+You are given t, number of testcases.
+For each testcase, find the following: 
+You are given left bottom corrner coordinates and upper top corner coordinates of three papers (white, black and black).
+The papers are placed on a grid as given. Check if after placing black papers, the white one is still visible.
+Coordinates have value up to 10^6 and are positive integers.
+Print YES or NO.
+</details>
 
 ## Advanced Algorithms
 
