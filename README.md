@@ -469,7 +469,24 @@ No new blocks are added after each move (unlike the original 2048 game).
 If three identical blocks are lined up in a direction, only the leading pair will merge first (e.g., [2, 2, 2] moving left becomes [4, 2], not [2, 4]).
 Your goal is to determine the maximum block value that can be created after performing at most 5 moves.
 You are given the initial state of the board. Write a program to find the largest possible block value obtainable in five or fewer moves.
+</details>
 
+<details>
+<summary>Beads</summary>
+One of the most popular children's toys sold by StartLink is the game Bead Escape. The game is played on a rectangular board with one red bead and one blue bead placed on it. The objective is to get the red bead into a hole on the board while ensuring that the blue bead does not fall in.
+
+Game Rules
+The board is a grid of size N x M, where each cell is 1x1 in size.
+The borders of the board are walls (#), and there is exactly one hole (O) on the board.
+The red (R) and blue (B) beads each occupy one full cell.
+You cannot move the beads directly — instead, you tilt the entire board in one of four directions: up, down, left, or right.
+When the board is tilted, both beads roll in that direction until they either hit a wall or fall into the hole.
+The beads move simultaneously and cannot occupy the same cell at the same time.
+If the red bead falls into the hole, the move is considered successful — but only if the blue bead does not fall in.
+If the blue bead falls into the hole at any time (even simultaneously with the red bead), the move fails.
+A tilt ends when both beads can no longer move.
+
+Given the initial configuration of the board, determine the minimum number of moves needed to get the red bead into the hole while ensuring the blue bead does not fall in. You can make at most 10 moves. If it is not possible to succeed within 10 moves, output -1.
 </details>
 
 ## Advanced Algorithms
