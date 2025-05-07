@@ -405,6 +405,14 @@ For a sequence of sticks, reply with minimum number of splitting operations requ
 For example, sticks [5, 6, 5, 6] can all become of length 3 in total of 4 operations.
 </details>
 
+<details>
+<summary>Make Palindrome</summary>
+You are given a t, number of test cases.
+For each testcase, you are given a string s.
+Find minimum number of 'x' that need to be inserted into s so it becomes a palindrome.
+Print -1 if not possible.
+</details>
+
 
 ## Advanced Algorithms
 
