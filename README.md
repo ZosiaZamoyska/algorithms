@@ -459,6 +459,19 @@ You're given the positions of the apples and a schedule of direction changes. Yo
 
 </details>
 
+<details>
+<summary>2048</summary>
+2048 is a fun single-player game played on an N x N board. In this game, the player moves all the blocks on the board in one of four directions — up, down, left, or right. When two blocks with the same value collide during a move, they merge into one block with a value equal to their sum. However, a block can only merge once per move.
+
+In this version of the game:
+
+No new blocks are added after each move (unlike the original 2048 game).
+If three identical blocks are lined up in a direction, only the leading pair will merge first (e.g., [2, 2, 2] moving left becomes [4, 2], not [2, 4]).
+Your goal is to determine the maximum block value that can be created after performing at most 5 moves.
+You are given the initial state of the board. Write a program to find the largest possible block value obtainable in five or fewer moves.
+
+</details>
+
 ## Advanced Algorithms
 
 ### DFS
