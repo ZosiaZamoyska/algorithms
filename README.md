@@ -435,6 +435,30 @@ Coordinates have value up to 10^6 and are positive integers.
 Print YES or NO.
 </details>
 
+### Simulations
+
+<details>
+<summary>Snake</summary>
+TLDR; simulate snake game given apple locations and snake movements. write how long it will live.
+
+There is a DOS game called "Dummy", where a snake moves around a square board. The snake grows longer whenever it eats an apple. The game ends when the snake crashes into a wall or its own body.
+
+The game takes place on an N x N board. Some of the board cells contain apples. The edges of the board are surrounded by walls. At the start of the game, the snake is located in the top-left corner (row 1, column 1) and is initially facing right. The snake starts with a length of 1.
+
+Each second, the snake performs the following actions:
+
+1. It moves forward by one cell in its current direction, increasing its length.
+2. If it moves into a wall or its own body, the game ends.
+3. If the new cell contains an apple:
+    a. The apple is eaten and disappears.
+    b. The tail does not move, so the snake’s length increases by 1.
+4. If the new cell does not contain an apple:
+    a. The tail moves forward (i.e., the last segment is removed), so the snake’s length stays the same.
+
+You're given the positions of the apples and a schedule of direction changes. Your task is to simulate the game and determine how many seconds elapse before the game ends.
+
+</details>
+
 ## Advanced Algorithms
 
 ### DFS
