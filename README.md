@@ -516,6 +516,21 @@ Compute for each node a sum of distances to all other nodes.
 https://leetcode.com/problems/sum-of-distances-in-tree/description/
 </details>
 
+### Text 
+
+<details>
+<summary>XX</summary>
+Given a string s, find the minimum number of operations required to make the string in a format of X+X.
+
+Allowed operations include:
+1. Deleting a letter from s
+2. Adding a letter to s
+3. Replacing a letter in s
+
+For example, "XYXX" -> requires 1 operation. 
+"ABCXYZDEFABCDEF" -> requires 3 operaitons.
+</details>
+
 # Implementation
 
 This is a place where I keep my implementation of most popular algorithms.
