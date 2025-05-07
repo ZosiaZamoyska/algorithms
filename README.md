@@ -392,7 +392,18 @@ Find minimum number of nails that need to be nailed in order for all plates to b
 <summary>Radius</summary>
 </details>
 
+### Greedy
 
+<details>
+<summary>Sticks</summary>
+You are given an N (1 <= N <= 50), number of sticks. 
+Each stick has a length a_i (1 <= a_i <= 10^9). 
+Each stick can be split in half. The resulting sticks have to be integers.
+So, we define the lenghts of resulting sticks as floor(a_i / 2) and a_i - floor(a_i / 2).
+Whenever you split a stick, you save one and throw out the other.
+For a sequence of sticks, reply with minimum number of splitting operations required to make all sticks same length.
+For example, sticks [5, 6, 5, 6] can all become of length 3 in total of 4 operations.
+</details>
 
 
 ## Advanced Algorithms
