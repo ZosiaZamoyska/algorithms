@@ -1,5 +1,4 @@
 /*
-
     You are given a sequence of n distinct integers from 1 to n, stored inside n boxes. 
     There is one additional empty box labeled n+1.
     At any time, you are allowed to swap the content of the empty box with any other box.
