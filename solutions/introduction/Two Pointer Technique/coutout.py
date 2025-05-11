@@ -1,3 +1,25 @@
+'''
+    Jasio found a very old roll of paper in the attic on which his great-grandfather had written a sequence of integers.
+    For a game he recently invented, he needs a segment of the paper where the sum of all numbers is exactly `s`.
+    He will throw away the unnecessary parts.
+    Additionally, Jasio wants this segment to be as long as possible.
+
+    Input:
+    n, s <= 300,000
+    a list of n integers (can be negative)
+
+    Example:
+    6 4
+    3 -2 6 1 -1 5
+
+    Output:
+    4
+
+    Explanation:
+    The longest subarray that sums to 4 is: [-2, 6, 1, -1]
+'''
+
+
 def longest_subarray_with_sum(n, s, nums):
     prefix = [0] * (n + 1)
     for i in range(n):
