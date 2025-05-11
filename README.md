@@ -610,6 +610,19 @@ Compute for each node a sum of distances to all other nodes.
 https://leetcode.com/problems/sum-of-distances-in-tree/description/
 </details>
 
+### Hashing
+
+<details>
+<summary>Unique Subwords</summary>
+For a given word, count all unique subwords inside that word.
+Example:
+ABAB
+
+Answer:
+7 
+(A, B, AB, BA, ABA, BAB, ABAB)
+</details>
+
 ### Text 
 
 <details>
@@ -624,6 +637,8 @@ Allowed operations include:
 For example, "XYXX" -> requires 1 operation. 
 "ABCXYZDEFABCDEF" -> requires 3 operaitons.
 </details>
+
+
 
 # Implementation
 
