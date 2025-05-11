@@ -392,6 +392,36 @@ Find minimum number of nails that need to be nailed in order for all plates to b
 <summary>Radius</summary>
 </details>
 
+### Two Pointer Technique
+
+<details>
+<summary>Treats</summary>
+A girl placed n treats in a row. Each treat is of a certain type. 
+The girl can now choose a certain number (from 1 to n) of consecutive treats and then eat them all. 
+The only condition is that no two treats can be of the same type. 
+Help the girl and find the number of ways in which she can choose such consecutive treats.
+</details>
+
+
+<details>
+<summary>Cutout</summary>
+Jasio found a very old roll of paper in the attic on which his great-grandfather had written a sequence of integers.
+For a game he recently invented, he needs a segment of the paper where the sum of all numbers is exactly `s`.
+He will throw away the unnecessary parts.
+Additionally, Jasio wants this segment to be as long as possible.
+</details>
+
+
+<details>
+<summary>Temperature</summary>
+We are given temperature readings from two thermometers: one on the north wall and one on the south wall.
+- The north wall thermometer *never shows higher* than the actual temperature.
+- The south wall thermometer *never shows lower* than the actual temperature.
+This means the true temperature on day i lies within the interval [north[i], south[i]].
+
+Return the length of the longest contiguous time interval (subarray) during which it was possible that the actual temperatures were non-decreasing.
+</details>
+
 ### Greedy
 
 <details>
