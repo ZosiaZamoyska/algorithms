@@ -425,6 +425,18 @@ Return the length of the longest contiguous time interval (subarray) during whic
 ### Greedy
 
 <details>
+<summary>Kayakers</summary>
+We have `n` kayakers, each with a weight such that 1 <= w_0 <= w_1 <= ... <= w_(n-1) <= 10^9.
+We want to assign them to the minimum number of two-person kayaks with a weight capacity of `k`. 
+Each kayak can hold up to two people as long as their combined weight does not exceed `k`. 
+It is guaranteed that each individual weighs less than or equal to `k`, so everyone can go alone if necessary.
+</details>
+
+<details>
+<summary> </summary>
+</details>
+
+<details>
 <summary>Sticks</summary>
 You are given an N (1 <= N <= 50), number of sticks. 
 Each stick has a length a_i (1 <= a_i <= 10^9). 
