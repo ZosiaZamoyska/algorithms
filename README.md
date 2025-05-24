@@ -491,6 +491,17 @@ contain the same amount, and if so, compute the minimum number of water transfer
 A transfer consists of pouring water from one glass to another.
 </details>
 
+### Dynamic Programming
+
+<details>
+<summary>Frog</summary>
+A frog wants to jump from position 0 to position k using fixed jump lengths s0, s1, ..., sn-1.
+It can only jump in the forward direction. Your task is to count how many different ways
+the frog can reach exactly position k by making any number of jumps (including zero),
+using the allowed jump distances.
+</details>
+
+
 ### Compression
 
 <details>
