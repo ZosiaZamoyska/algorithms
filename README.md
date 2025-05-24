@@ -535,6 +535,19 @@ Calculate the minimum number of days needed to travel from city 0 to city n-1,
 using at most `k` highways.
 </details>
 
+<details>
+<summary>Pretty Sequence</summary>
+A boy is constructing sequences made of integers in the range from 0 to k.
+He considers a sequence "nice" if the absolute difference between any two
+adjacent elements is at most 1.
+
+We want to find out how many different nice sequences of each given length
+can be formed. Two sequences are considered different if they differ at
+any position.
+
+Your task is to calculate, for each given sequence length, the number of such
+nice sequences, modulo q.
+</details>
 
 ### Compression
 
