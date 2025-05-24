@@ -501,6 +501,20 @@ the frog can reach exactly position k by making any number of jumps (including z
 using the allowed jump distances.
 </details>
 
+<details>
+<summary>Board</summary>
+A girl received a board with `n` fields, each containing an integer: p0, p1, ..., p(n-1).
+A boy came up with a game:
+
+Starting from position 0, you must move a token to position n-1 by rolling a six-sided die.
+Each move lets you jump 1 to 6 fields forward.
+
+The goal is to collect the highest possible total by summing the values of all visited fields,
+starting from position 0 and ending at position n-1.
+
+Return the maximum sum you can get by playing optimally.
+</details>
+
 
 ### Compression
 
