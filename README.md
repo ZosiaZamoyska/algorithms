@@ -515,6 +515,26 @@ starting from position 0 and ending at position n-1.
 Return the maximum sum you can get by playing optimally.
 </details>
 
+<details>
+<summary>Highway</summary>
+In Bajtlandia, there are `n` cities located along a coastline. Each pair of consecutive cities
+is connected by a one-way sandy road, and traveling along such a road takes exactly one day.
+
+Additionally, from each city, there might be a one-way highway leading to another city.
+Traveling via a highway also takes one day. However, due to the high cost, you are allowed to use
+highways at most `k` times during the entire journey.
+
+Michał wants to get from the first city (index 0) to the last city (index n-1) as quickly as possible.
+
+You are given the number of cities `n`, the maximum allowed number of highway uses `k`,
+and an array `m` of length `n` where:
+- `m[i] == -1` means there is no highway from city i
+- `m[i] == j` means there is a highway from city i to city j
+
+Calculate the minimum number of days needed to travel from city 0 to city n-1,
+using at most `k` highways.
+</details>
+
 
 ### Compression
 
