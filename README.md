@@ -476,6 +476,21 @@ Find minimum number of 'x' that need to be inserted into s so it becomes a palin
 Print -1 if not possible.
 </details>
 
+<details>
+<summary>Glasses</summary>
+A girl lined up a number of glasses and poured the same amount of water into each one.
+Then she left the room. During her absence, a boy came in and decided to play a prank
+by quickly pouring water between the glasses, making the water levels uneven.
+
+When the girl returned and saw the uneven water distribution, she got upset and ran to her mother.
+An investigation could not find the culprit, so now the only thing to do is to redistribute the water
+such that each glass ends up with the same amount of water.
+
+Given the current amount of water in each glass, determine whether it's possible to make all glasses
+contain the same amount, and if so, compute the minimum number of water transfer operations needed.
+A transfer consists of pouring water from one glass to another.
+</details>
+
 ### Compression
 
 <details>
