@@ -30,7 +30,7 @@ City 1 → City 2 (sandy road)
 City 2 → City 5 (highway)
 '''
 
-def min_days_to_last_city(n, k, m):
+def min_days(n, k, m):
     dp = [[float('inf')] * n for _ in range(k + 1)]
     
     for j in range(n):
@@ -53,5 +53,5 @@ def min_days_to_last_city(n, k, m):
 n, k = map(int, input().split())
 m = list(map(int, input().split()))
 
-result = min_days_to_last_city(n, k, m)
+result = min_days(n, k, m)
 print(result)
