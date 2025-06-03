@@ -617,6 +617,13 @@ Given the initial configuration of the board, determine the minimum number of mo
 
 ## Advanced Algorithms
 
+### Binary Tree
+
+<details>
+<summary>Min Path</summary>
+For a given binary tree, find a path with minum sum from root to a leaf.
+</details>
+
 ### DFS
 
 <details>
