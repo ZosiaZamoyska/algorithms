@@ -626,6 +626,19 @@ Given the initial configuration of the board, determine the minimum number of mo
 For a given binary tree, find a path with minum sum from root to a leaf.
 </details>
 
+<details>
+<summary>Infinite Tree</summary>
+Given two nodes in an infinite binary tree, find the distance between them. Consider root node to be 1. Distance is defined by number of edges between them, where each edge is of length 1. 
+</details>
+
+<details>
+<summary>Tree</summary>
+We are given a binary tree of height k. Each edge can be closed or open. Initially, all left edges are open. The boy drops n balls one by one. The balls fly from the starting vertex, which is the root of the tree, through an open edge. A ball flying through a given edge closes it and opens the adjacent edge.
+The boy wonders which leaf the n-th ball will fall into.
+We read the number of balls and the height of the tree. (N <= 10^8, 1 <= k <= 31)
+</details>
+
+
 ### DFS
 
 <details>
