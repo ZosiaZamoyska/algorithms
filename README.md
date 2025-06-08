@@ -787,6 +787,11 @@ For example, "XYXX" -> requires 1 operation.
 </details>
 
 
+<details>
+<summary>Eraser</summary>
+You are given a list of n words. Find the most lexicographically largest that appears in all of the words in the same order. Imagine you are trying to make all words same and lexicographically largest, while only being allowed to erase letters from words.
+</details>
+
 
 # Implementation
 
