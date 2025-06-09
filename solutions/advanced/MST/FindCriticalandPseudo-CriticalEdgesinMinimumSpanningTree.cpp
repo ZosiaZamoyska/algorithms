@@ -1,6 +1,7 @@
 /*
     Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree
 */
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
