@@ -638,6 +638,17 @@ The boy wonders which leaf the n-th ball will fall into.
 We read the number of balls and the height of the tree. (N <= 10^8, 1 <= k <= 31)
 </details>
 
+### Heap
+
+<details>
+<summary>Min Max Heap</summary>
+You are given a list of numbers. If a number is positive, it is added to a set. If a number is 0, then we are inquiring the result of substraction between largest and smallest number in the set.
+Then, both of the elements are deleted from the set. 
+
+For given list, output the result of substraction between max and min.
+
+
+</details>
 
 ### DFS
 
