@@ -653,6 +653,17 @@ For given list, output the result of substraction between max and min.
 There are n people in a queue. Given each person's age, find the largest sum of two people's ages, such that those people are standing at most k positions away from each other.
 </details>
 
+<details>
+<summary>Tickets</summary>
+A man is going on a trip consisting of n consecutive segments. 
+Before entering each segment, there is a ticket booth where he must buy 
+and validate a ticket in order to continue the journey.
+Additionally, at each booth, he can purchase a limited number of extra tickets 
+for future use. Ticket prices may vary at each booth, and each person 
+can buy only a limited number of tickets from each booth.
+Your task is to calculate the minimum total cost of the entire journey.
+</details>
+
 ### DFS
 
 <details>
