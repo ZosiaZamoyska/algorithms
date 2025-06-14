@@ -646,8 +646,11 @@ You are given a list of numbers. If a number is positive, it is added to a set. 
 Then, both of the elements are deleted from the set. 
 
 For given list, output the result of substraction between max and min.
+</details>
 
-
+<details>
+<summary>Queue</summary>
+There are n people in a queue. Given each person's age, find the largest sum of two people's ages, such that those people are standing at most k positions away from each other.
 </details>
 
 ### DFS
