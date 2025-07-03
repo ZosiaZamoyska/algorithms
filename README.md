@@ -19,12 +19,15 @@
     - [Simulations](#simulations)
   - [Advanced Algorithms](#advanced-algorithms)
     - [Binary Tree](#binary-tree)
+    - [Heap](#heap)
     - [DFS](#dfs)
     - [Dijkstra](#dijkstra)
     - [Find and Union](#find-and-union)
     - [MST](#mst)
     - [Topological Sort](#topological-sort)
     - [DP on a Tree](#dp-on-a-tree)
+    - [Hashing](#hashing)
+    - [Text](#text)
 - [Implementation](#implementation)
   - [Sorting](#sorting-1)
   - [Graphs](#graphs)
@@ -836,16 +839,19 @@ This is a place where I keep my implementation of most popular algorithms.
 ## Graphs
 
 * BFS (C++)
-* DFS (C++)
+* DFS (C++, python)
 * Dijkstra (C++)
 * Bellman-Ford (C++)
 * Floyd-Warshall (C++)
 * Tree Diameter (C++)
 * MST Kruskal (C++)
-* MST Prim (C++)
+* MST Prim (C++, python)
+* Tree diameter (C++, python)
 
 ## Other
 
+* Sieve of Eratosthenes (python)
+* Factorization with Sieve (python)
 * prefix sum (python)
 * 2D prefix sum (C++, python)
 * 2-pointer technique (C++)
