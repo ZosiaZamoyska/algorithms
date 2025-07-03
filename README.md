@@ -841,7 +841,7 @@ This is a place where I keep my implementation of most popular algorithms.
 * BFS (C++)
 * DFS (C++, python)
 * Dijkstra (C++)
-* Bellman-Ford (C++)
+* Bellman-Ford (C++, python)
 * Floyd-Warshall (C++)
 * Tree Diameter (C++)
 * MST Kruskal (C++)
